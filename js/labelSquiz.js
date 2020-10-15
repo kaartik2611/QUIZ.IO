@@ -29,7 +29,14 @@ for (i = 0; i < l; i++) {
           if (s.options[i].innerHTML == this.innerHTML) {
             s.selectedIndex = i;
             h.innerHTML = this.innerHTML;
+            //changing margin when clicked
+            const marginChange = document.querySelector(".custom-select")
+            marginChange.style.margin="50px 0";
+            const selectedChoice =h.innerHTML
+            document.getElementById("display").innerHTML= "You have selected " + selectedChoice + ".";
             y = this.parentNode.getElementsByClassName("same-as-selected");
+            const continueButton = document.querySelector("#continue");
+            continueButton.style.display="inline-block";
             yl = y.length;
             for (k = 0; k < yl; k++) {
               y[k].removeAttribute("class");

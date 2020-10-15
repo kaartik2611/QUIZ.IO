@@ -41,29 +41,3 @@ body{
     bottom:0;
     margin:15px 0 ;
 }
-.display-selected-option{
-    color:white;
-    font-size:20px;
-    margin-top:90px;
-}
-.continue-button button{
-    width: 200px;
-    font-size: 20px;
-    font-family: Poppins;
-    margin: 20px 0 20px 0;
-    margin-top:50px;
-    padding:5px;
-    color:snow;
-    background-color: #3282b8;
-    text-decoration: none;
-    outline: none;
-    border-radius: 10px;
-    border: none;
-    transition: all 0.2s;
-    display:none;
-    margin-top: 110px;;
-}
-.continue-button button:hover{
-    color: #3282b8;
-    background-color: snow;
-}

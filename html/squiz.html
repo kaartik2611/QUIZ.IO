@@ -28,16 +28,28 @@
     <div class="choose-topic">
         <p>Choose your language. </p>
     </div>
-    <div id="choice" class="custom-select" style="width:300px; margin: 50px 0;">
-        <select>
-          <option value="0">Options:</option>
-          <option value="1">Python</option>
-          <option value="2">Javascript</option>
-          <option value="3">java</option>
-          <option value="4">C++</option>
-          <option value="5">Ruby</option>
+    <div  class="custom-select" style="width:300px; margin: 120px 0; transition:0.5s all;">
+        <select id="select-code">
+          <option value="0" >Options:</option>
+          <option value="1" >C</option>
+          <option value="2" >C++</option>
+          <option value="3" >HTML</option>
+          <option value="4" >CSS</option>
+          <option value="5" >Javascript</option>
+          <option value="6" >Java</option>
+          <option value="7" >Ruby</option>
+          <option value="8" >Python</option>
         </select>
       </div>
+      <div class="display-selected-option">
+        <p id ="display"></p>
+      </div>
+      <div class="continue-button">
+        <a href="/html/quizmain.html"><button id ="continue" href="/html/quizmain.html">Continue</button></a>
+    </div>
+      <div class="bottom-nav">
+        <header>Developed by Kaartik Nayak</header>
+    </div>
  </div>
 
  <script src="/js/squiz.js" type="text/javascript"></script>
