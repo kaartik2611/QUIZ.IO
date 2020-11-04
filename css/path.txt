@@ -1,0 +1,35 @@
+notes
+
+make a function which will be called when start button is clicked.
+
+display none of buttons.(of answers and question)
+
+display question and options.
+
+1) make function startBtn() which will add innerhtml to buttons for options and in p tag for question.
+2) randomly select question and answer.
+3) make a function which will change the questionand options when the user selects any option.
+4)update score and question number accordingly.
+
+
+maybe useful:
+  //creating button and assigning it class,id attributes and onClick function
+//   function createBtn(){for (var i=0;i<options.length;i++){
+    
+//     const btn = document.createElement("button")
+//     btn.setAttribute("class","btn-options")
+//     var idValue = document.createAttribute("id")
+//     idValue.value = "option"+[i]
+//     btn.setAttributeNode(idValue)
+
+//     var Btndiv= document.getElementById("options")
+//     var btnOptions = document.createTextNode(options[i])
+//     btn.appendChild(btnOptions)
+//     Btndiv.appendChild(btn)
+    
+// }}
+
+
+continue clicked
+
+run function-- display question and options 

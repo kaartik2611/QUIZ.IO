@@ -18,41 +18,72 @@
         </a>
         </div>
         <div class="navbar-inner">
-            <a href="http://github.com">
+            <a href="http://github.com" target="_blank">
                 <div>
                     <img src="/images/githublogo 50 x 50.png" alt="github-logo">
                 </div>
             </a>
         </div>
     </div>
-    <div class="choose-topic">
+    <div class="choose-topic display-none">
         <p>Choose your language. </p>
     </div>
-    <div  class="custom-select" style="width:300px; margin: 120px 0; transition:0.5s all;">
+    <div  class="custom-select display-none" style="width:300px; margin: 120px 0; transition:0.5s all; ">
         <select id="select-code">
           <option value="0" >Options:</option>
           <option value="1" >C</option>
           <option value="2" >C++</option>
           <option value="3" >HTML</option>
           <option value="4" >CSS</option>
-          <option value="5" >Javascript</option>
+          <option value="5" >JavaScript</option>
           <option value="6" >Java</option>
           <option value="7" >Ruby</option>
           <option value="8" >Python</option>
         </select>
       </div>
-      <div class="display-selected-option">
+      <div class="display-selected-option display-none">
         <p id ="display"></p>
       </div>
-      <div class="continue-button">
-        <a href="/html/quizmain.html"><button id ="continue" href="/html/quizmain.html">Continue</button></a>
+      <div class="continue-button display-none">
+        <a href="#"><button id ="continue" onclick="gameStart()">Continue</button></a>
+        <!-- <a href="#"><button id ="continue" onclick="btnOptions()">Continue</button></a> -->
     </div>
-      <div class="bottom-nav">
-        <header>Developed by Kaartik Nayak</header>
+
+    <div class = "gameplay-container">
+        <div id = "options-buttons-main-div">
+
+            <div class="score-btn">
+                <button id="score"> Score: 0</button>
+            </div>
+
+            <div class = "ques-number">
+                <span id = "question-number"></span>
+            </div>
+            <div id="questions" class="question-game">
+                <p>question Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, perferendis.</p>
+            </div>
+            <div id="options-buttons">
+                <div id="options">
+                    <button class="btn-options" id="1" >option1</button>
+                    <button class="btn-options" id="2" >option2</button>
+                    <button class="btn-options" id="3" >option3</button>
+                    <button class="btn-options" id="4" >option4</button>
+                </div>
+            </div>
+            <!-- <div class="continue-btn">
+                <button id="continue"> Continue</button>
+            </div> -->
+        </div>
+    </div>
+    <div class="bottom-nav">
+        <footer>Developed by Kaartik Nayak</footer>
     </div>
  </div>
 
- <script src="/js/squiz.js" type="text/javascript"></script>
- <script src="/js/labelSquiz.js" type="text/javascript"></script>
+
+
+ <script src="/js/game.js" type="text/javascript"></script>
+ <!-- <script src="/js/labelSquiz.js" type="text/javascript"></script> -->
+ <!-- <script src="/js/demo.js" type="text/javascript"></script> -->
 </body>
 </html>
