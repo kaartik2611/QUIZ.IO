@@ -40,7 +40,7 @@ body{
 .description{
     width: 100%;
     font-size: 20px;
-    padding : 20px 0;
+    padding : 20px 2px;
     margin: 30px;
     color: #99d8d0;
 
@@ -60,6 +60,8 @@ body{
     border-radius: 10px;
     font-family: Poppins;
     margin : 100px 0 ;
+    box-shadow: 0 0 10px #8d93ab;
+
 }
 .quiz-btn-div{
     width: 100%;
@@ -67,7 +69,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.create-quiz-btn ,.solve-quiz-btn{
+.create-quiz-btn ,.solve-quiz-btn {
     width: 200px;
     font-size: 20px;
     font-family: Poppins;
@@ -81,6 +83,8 @@ body{
     border-radius: 10px;
     border: none;
     transition: 0.2s;
+    box-shadow: 0 0 10px #8d93ab;
+
 }
 .create-quiz-btn:hover ,.solve-quiz-btn:hover, .btn-start:hover {
     color: #3282b8;

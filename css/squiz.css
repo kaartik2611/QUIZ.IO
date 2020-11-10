@@ -45,13 +45,14 @@ body{
     color:white;
     font-size:20px;
     margin-top:90px;
+    width: 50%;
 }
 .continue-button button{
     width: 200px;
     font-size: 25px;
     font-family: Poppins;
     margin: 20px 0 ;
-    padding:5px;
+    padding:10px;
     color:snow;
     background-color: #3282b8;
     text-decoration: none;
@@ -61,6 +62,8 @@ body{
     transition: all 0.2s;
     display:none;
     margin-top: 80px;
+    box-shadow: 0 0 10px #8d93ab;
+
 }
 .continue-button button:hover{
     color: #3282b8;
@@ -90,20 +93,22 @@ body{
 .btn-options,#question-button{
     margin: 20px;
     font-size:20px;
-    margin:40px 020px;
+    margin:40px 030px;
+
 }
-.btn-options , #score{
-    padding :10px;
+.btn-options , #score , .restart{
+    padding :20px 10px;
     width:100%;
     align-self: center;
     font-size:20px;
-    width: 150px;
+    width: 200px;
     color: snow;
     background-color:#3282b8;
     border: none;
     text-decoration: none;
     outline: none;
     border-radius: 10px;
+    box-shadow: 0 0 10px #8d93ab;
 }
 
 #score{
@@ -111,20 +116,40 @@ body{
     border-radius: 0px;
 }
 
-.btn-options:hover , #continue:hover{
-    color: #3282b8;
-    background-color: snow;
-}
-
-#continue{
+#home{
     width: 150px;
     font-size:20px;
-    padding: 10px;
-    margin-top: 80px;
+    padding: 15px 10px;
     color: snow;
     background-color:#3282b8;
     border: none;
     text-decoration: none;
     outline: none;
     border-radius: 10px;   
+    box-shadow: 0 0 10px #8d93ab;
+
+}
+
+.btn-options:hover , #continue:hover , .restart:hover , #home:hover{
+    color: #3282b8;
+    background-color: snow;
+}
+.final-page{
+    display: none;
+}
+.final-page_p{
+    font-size: 25px;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    margin:100px;
+}
+
+.correct{
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+.wrong {
+	border: 4px solid #ef0d0d;
+	box-shadow: 0 0 10px #b10808;
 }
