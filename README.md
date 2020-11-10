@@ -15,7 +15,7 @@ Contributions are always welcome!
 
 # Link
 
-https://google.com
+https://quiz-io.netlify.app/
 
 # License
 
